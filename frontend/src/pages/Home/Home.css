@@ -1,0 +1,24 @@
+.container {
+    height: 100vh;
+    padding: 5rem;
+    box-sizing: border-box;
+}
+
+.vector-graphics {
+    animation: vectorAnimation 1s infinite ease-in-out alternate;
+}
+
+@keyframes vectorAnimation {
+    to {
+        transform: translateY(-10px);
+    }
+}
+
+.fly {
+    color: #8fabe0;
+    background-image: -webkit-linear-gradient(0deg, #8fabe0 79%, #edabd7 40%, #ce76fb 29%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    text-fill-color: transparent;
+    -webkit-text-fill-color: transparent;
+}
